@@ -1,0 +1,21 @@
+#friends-display-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  font-weight: 900;
+  padding: 5px 0px;
+  margin-bottom: 10px;
+}
+#friends-display-link i,
+#friends-display-link svg {
+  padding-right: 7px;
+  color: #d5d5d5;
+}
+#friends-display-link span {
+  padding-right: 5px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#friends-display-link svg {
+  width: 15px;
+}

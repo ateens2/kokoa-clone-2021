@@ -6,19 +6,22 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-headers.css";
+@import "screens/friends.css";
+@import "components/user-components.css";
 
 /* Screens */
 @import "screens/login.css";
 
 body {
   font-family: "Gothic A1", sans-serif;
+  height: 1000vh;
 }
 
 .welcome-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 90px;
+  padding-top: 90px;
 }
 .welcome-header__title {
   font-size: 25px;
@@ -33,7 +36,4 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 90px;
-}
-body {
-  height: 1000vh;
 }
