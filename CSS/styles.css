@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@100&family=Noto+Serif+KR:wght@200&display=swap");
 @import "reset.css";
 @import "variables.css";
+
 /* Componets */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-headers.css";
+
 /* Screens */
 @import "screens/login.css";
 
@@ -29,4 +33,7 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 90px;
+}
+body {
+  height: 1000vh;
 }
